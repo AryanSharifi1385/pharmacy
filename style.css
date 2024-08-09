@@ -1,0 +1,113 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+span{
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 182.77;
+    height: 27;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    margin-left: 20px;
+}
+.welcome{
+    width: 239.22px;
+    height: 61.39px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.hero{
+    text-align: center;
+    background-color: rgb(255, 145, 0);
+    margin-top: 20px;
+}
+.service{
+    padding: 20px;
+    margin: 0 auto;
+}
+.banner{
+    max-width: 100%;
+    margin-top: 20px;
+    width: 80%;
+    height: auto;
+}
+.ss{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.dd{
+    box-shadow: -6px 5px 10px black;
+    display: flex;
+
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.am{
+    box-shadow: -6px 5px 10px black;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+.amx{
+    height: 100px;
+    width: 100px;
+}
+.pec{
+    box-shadow: -6px 5px 10px black;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+.pc{
+    height: 100px;
+    width: 100px;
+}
+.foot{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.social{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    margin-left: 50px;
+}
+.ww{
+    box-shadow: 11px -6px 10px black;
+    border-radius: 5px;
+    background-color: orange;
+}
